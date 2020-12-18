@@ -28,6 +28,9 @@ inoremap <silent><expr> <c-space> coc#refresh()
 nnoremap <leader>ev :e $MYVIMRC<cr>
 nnoremap <leader>sv :so $MYVIMRC<cr>
 
+nnoremap <leader>k ddkP
+nnoremap <leader>j ddp
+
 highlight CocErrorSign ctermbg=Black
 highlight CocErrorSign ctermfg=Red
 highlight CocWarningSign ctermbg=Black
@@ -35,6 +38,8 @@ highlight CocWarningSign ctermfg=Red
 highlight CocInfoSign ctermbg=Black ctermfg=Yellow
 highlight CocFloating ctermbg=Black
 highlight Pmenu ctermbg=Black ctermfg=Blue
-highlight PmenuSel ctermbg=Blue ctermfg=White
+highlight StatusLine ctermfg=Black ctermbg=Gray
+highlight StatusLineNC ctermfg=Black ctermbg=Gray
+highlight VertSplit ctermfg=Black
 
 set fillchars+=vert:\ 
