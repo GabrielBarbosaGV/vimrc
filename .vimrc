@@ -71,9 +71,20 @@ highlight StatusLineNC ctermfg=Black ctermbg=Gray
 
 highlight VertSplit ctermfg=Black
 
-highlight JavaStorageClass ctermfg=159
-highlight JavaStatement ctermfg=176
+highlight LineNr ctermfg=Gray
 
+highlight JavaStorageClass ctermfg=Darkblue
+highlight JavaStatement ctermfg=Darkblue
+highlight Repeat ctermfg=Darkblue
+highlight Typedef ctermfg=Darkblue
+highlight JavaType ctermfg=Darkblue
+highlight Exception ctermfg=Darkblue
+highlight String ctermfg=111
+highlight Constant ctermfg=111
+highlight Branch ctermfg=Darkblue
+highlight Conditional ctermfg=Darkblue
+highlight Operator ctermfg=Darkblue
+highlight Include ctermfg=Darkblue
 highlight Type ctermfg=159
 " </Highlighting>
 
